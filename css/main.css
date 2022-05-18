@@ -1,0 +1,224 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section-hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-hero h1 {
+  font-size: 8rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.section-hero h2 {
+  font-size: 4.4rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.first-subheader {
+  max-width: 700px;
+}
+
+.section-hero h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* Sianden section */
+.section-siandien {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #171717;
+  padding-top: 10em;
+  padding-bottom: 15em;
+}
+
+.section-siandien .img-wrapper {
+  position: relative;
+}
+
+.section-siandien h1 {
+  color: white;
+  position: absolute;
+  bottom: -250px;
+  right: -240px;
+  font-size: 8rem;
+  font-weight: 900;
+}
+
+.section-siandien h2 {
+  color: rgba(255, 255, 255, 0.61);
+  position: absolute;
+  bottom: 0;
+  left: 125px;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+/* Kai Section */
+.section-kai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25em 0;
+}
+
+.section-kai > h1 {
+  font-size: 8rem;
+}
+
+.section-kai > .kai-title {
+  transform: rotate(180deg);
+}
+
+.section-kai > .gimei-title {
+  color: #e3e3e3;
+  padding-top: 2em;
+}
+
+/* Contacts page */
+.section-contact {
+  height: 100vh;
+  position: relative;
+  background-color: #101010;
+  overflow-y: hidden;
+}
+
+.section-contact img {
+  border-radius: 10px;
+  margin-left: 4em;
+  position: relative;
+  z-index: 100;
+}
+
+.section-contact .watermark {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/18.png");
+  background-repeat: repeat;
+  top: 0;
+  left: 120px;
+  right: 120px;
+  bottom: 0;
+  z-index: 10;
+}
+
+#confetti-canvas {
+  position: absolute;
+  top: 0;
+}
+
+.section-contact .watermark p {
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.04);
+  margin: 0;
+}
+
+.contact {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h1 {
+  position: relative;
+  z-index: 400;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.contact p {
+  position: relative;
+  z-index: 400;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.contact button {
+  position: relative;
+  z-index: 400;
+  font-size: 1.4rem;
+  margin-top: 2em;
+  padding: 1em 1.8em;
+  margin-bottom: 0;
+}
+
+/* Section big text */
+.section-big-text {
+  background-color: #0e0e0e;
+}
+
+.section-big-text > h1 {
+  font-size: 8rem;
+  color: white;
+}
+
+/* Section spausk */
+.section-spausk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-spausk h1 {
+  font-size: 8rem;
+  font-weight: 900;
+}
+
+/* Utilities */
+.container {
+  max-width: 100%;
+}
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.accent {
+  color: #ff0000;
+}
